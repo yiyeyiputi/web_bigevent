@@ -28,9 +28,11 @@ a {
 .userinfo {
   height: 60px;
   line-height: 60px;
-  text-align: center;
+  text-align: center！important;
   font-size: 12px;
+  /* 禁止被选中 */
   user-select: none;
+
 }
 
 .layui-side-scroll .userinfo {
